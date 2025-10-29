@@ -30,7 +30,7 @@ body {
     top: 0px;
     width: 100%;
     height: 100%;
-    background:url(st_m_eastwards_then.png);
+    background:url(htc_eastwards_unreal.png);
 }
 .compare .before .after {
     position: absolute;
@@ -38,7 +38,7 @@ body {
     left:0px;
     width:320px;
     height:450px;
-    background:url(st_m_eastwards_now.png);
+    background:url(htc_eastwards_matterport.png);
     z-index:2;
 }
 .compare input{

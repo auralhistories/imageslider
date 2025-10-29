@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles2.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+      Before-After Image Slider
+    </div>
+    <div class="compare">
+      <div class="before">
+        <div class="after">
+        </div>
+        <input type="range" min="0" max="640" step="10" id="compare-ip">
+      </div>
+    </div>
+<script>
+    document.querySelector(".compare #compare-ip").addEventListener("input", function(e) {
+      document.querySelector(".compare .before .after").style.width = (+e.target.value) + "px";
+  });
+  
+  document.querySelector(".compare #compare-ip").addEventListener("change", function(e) {
+      document.querySelector(".compare .before .after").style.width = (+e.target.value) + "px";
+  });
+</script>
+</body>
+</html>
+
+
